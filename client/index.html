@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex - Your AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="chat_container"></div>
+    <form>
+      <textarea name="prompt" rows="1" cols="1" placeholder="Ask codex..."></textarea>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <select id="templateSelect">
+            <option value="template1">хуй</option>
+            <option value="template2">Пошел на хуй</option>
+            <option value="template3">Шфаыыыыыыыыыыы</option>
+          </select>
+          <button type="button" id="selectTemplateBtn">Выбрать</button>
+        </div>
+      </div>
+      <button type="submit"><img src="assets/send.svg" alt="send" /></button>
+    </form>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
